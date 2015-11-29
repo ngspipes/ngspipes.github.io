@@ -4,9 +4,11 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>NGSPipes</title> 
+	<title> NGSPipes</title> 
 	<link rel="icon" type="image/ico"  href="ngsPipesImg/image.ico" />
-
+	<meta name="description" content="FreeME:Bootstrap Theme"/>
+	<meta name="keywords" content="Template, Theme, web, html5, css3" />
+	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -54,10 +56,13 @@
 					
 					<!--start: Logo -->
 					<div class="logo span4">
+					
 						<a class="brand" href="#"><img src="img/mylogo.png"></a>
 					</div>
 					<!--end: Logo -->
-		
+					
+
+					
 				</div>
 				<!--end: Row -->
 						
@@ -67,11 +72,16 @@
 			<!--start: Navigation-->	
 			<div class="navbar navbar-inverse">
     			<div class="navbar-inner">
-        			
-        		<div class="nav-collapse collapse">
+        			<div class="container">
+          				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            				<span class="icon-bar"></span>
+            				<span class="icon-bar"></span>
+            				<span class="icon-bar"></span>
+          				</a>
+          				<div class="nav-collapse collapse">
             				<ul class="nav">
-              					<li><a href="index.html">Home</a></li>
-								<li ><a href="download.html">Download</a></li>
+              					<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="download.html">Download</a></li>
               					<li class="dropdown">
                 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
                 					<ul class="dropdown-menu">
@@ -91,15 +101,16 @@
               					<li class="dropdown">
                 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
                 					<ul class="dropdown-menu">
-                  						<li><a href="#">DSL</a></li>
-                  						<li><a href="#">Engine</a></li>
-                  						<li><a href="#">Editor</a></li>                 						
+                  						<li><a href="https://github.com/ngspipes/dsl/wiki">DSL</a></li>
+                  						<li><a href="https://github.com/ngspipes/engine/wiki">Engine</a></li>
+                  						<li><a href="https://github.com/ngspipes/editor/wiki">Editor</a></li>                 						
                 					</ul>
                 				</li>
-                				<li class="active"><a href="team.html">Team</a></li>	
+                				<li><a href="team.html">Team</a></li>	
               					</li>
             				</ul>
           				</div>
+        			</div>
       			</div>
     		</div>
 			<!--end: Navigation-->
@@ -107,9 +118,26 @@
 		</div>
 		<!--end: Container-->
 				
+	<!--start: Container -->
+    	<div class="container">
+    	<div id="team">
+			<div class="title"><h3>Team</h3></div>
+		<p>
+    	<ul> Bruno Dantas, ADEETC, ISEL, Poly Inst of Lisbon 
+    	<li> Calmenelias Fleitas, ADEETC, ISEL, Poly Inst of LIsbon
+    	<li><a href="https://web.ist.utl.pt/aplf"> Alexandre P. Francisco, INESC-ID / CSE Dept, IST, Tech Univ of Lisbon </a>
+    	<li> <a href="http://www.cc.isel.ipl.pt/membros/paginas-pessoais/jose-simao/">José Simão, INESC-ID / DEETC, ISEL, Poly Inst of Lisbon </a>
+    	<li> <a href="http://pwp.net.ipl.pt/cc.isel/cvaz/"> Cátia Vaz , INESC-ID / DEETC, ISEL, Poly Inst of Lisbon  </a>
+    	</p>
+    	</ul>
+    	</div>
 
 
 
+	</div>
+	<!-- start container -->
+				
+	
 
 	</div>
 	<!-- end: Wrapper  -->
@@ -121,8 +149,13 @@
 		<!-- start: Container -->
 		<div class="container">
 		
+		        <p>
+		        <center>
+		        <h4>  &copy;<font color="#89c236">NGS</font><font color="#222">Pipes</font>, All rights reserved. </h4>
+		        </center>
+		        </p>
 				<p>
-					&copy; 2013, creativeLabs. <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> Designed by BootstrapMaster 
+					 Design: based on <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> Designed by BootstrapMaster 
 				</p>
 	
 		</div>
@@ -130,10 +163,10 @@
 		
 	</div>	
 	<!-- end: Copyright -->
-	
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.8.2.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/flexslider.js"></script>
 <script src="js/carousel.js"></script>
