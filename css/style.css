@@ -1140,9 +1140,13 @@ form#newsletter input[type=submit] {
 
 
 
+/* Higher than 1200 (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 2000px) {}
+
 /* Higher than 960 (desktop devices)
 ====================================================================== */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 960px) and (max-width: 1999px) {
 	
 	#wrapper {
 		width: 1000px;
@@ -1171,11 +1175,7 @@ form#newsletter input[type=submit] {
 
 /* Tablet Portrait (devices and browsers)
 ====================================================================== */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	
-	
-	
-}
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 /* All Mobile Sizes (devices and browser)
 ====================================================================== */
