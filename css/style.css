@@ -58,17 +58,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* #Lists
 ================================================== */
-	ul, ol { margin: 0; }
+	ul, ol { margin: 0;}
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
-	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; padding: 13px 13px 13px 15px; }
 	ul.square { list-style: square outside; }
-	ul.circle { list-style: circle outside; }
+	ul.circle { list-style: circle outside; padding: 13px 13px 13px 15px;  !important }
 	ul.disc { list-style: disc outside; }
 	ul ul, ul ol,
 	ol ol, ol ul {}
 	ul ul li, ul ol li,
 	ol ol li, ol ul li {}
+	
 
 
 
@@ -309,6 +310,18 @@ html[xmlns] .slides {display: block;}
      -moz-border-radius: 0px;
           border-radius: 0px;
 	font-size: 14px !important;
+}
+
+.hero-text{
+	padding: 13px 13px 13px 15px;
+	margin: 20px auto;
+	-webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+	font-size: 14px !important;
+}
+.hero-space{
+padding: 13px 13px 13px 15px;
 }
 
 /* Icon Boxes
